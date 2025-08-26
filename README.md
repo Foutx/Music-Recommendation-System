@@ -62,9 +62,7 @@ project/
 ---
 
 ## 🖼 Demo / Screenshots
-👉 *(Add screenshots here)*  
-👉 *(Or link to a running demo if deployed)*  
-
+![Demo screenshot](Music_Recommendation_System/screenshots/1.png)
 ---
 
 ## 🤝 Why This Project
