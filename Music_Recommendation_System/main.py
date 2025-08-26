@@ -9,15 +9,12 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
-# стартовая страница
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 def recommend_next_track(user_name: str):
     global track_rec
-    # тут логика модели, теперь можно использовать user_name
-    # например, выбрать средние пользователя, фильтровать историю и т.д.
     print(f"Рекомендация для пользователя: {user_name}")
 
     # If user exist
