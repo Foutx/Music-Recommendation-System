@@ -64,9 +64,4 @@ project/
 ## 🖼 Demo / Screenshots
 ![Demo screenshot](Music_Recommendation_System/screenshots/1.png)
 ---
-
-## 🤝 Why This Project
-This project demonstrates:
-- Full ML pipeline integration into a web service
-- Real-time personalization using feedback
-- Experience with Python, FastAPI, ML, and databases
+**#Created by Foutx**
